@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    padding:0;
+    margin:0;
+}
+
+a {
+    text-decoration:none;
+    color:#31607e;
+}
+
+ul {
+    list-style: none;
+    display:flex;
+    align-items: center;
+    padding:0;
+}
+p, h1, h2 {
+    margin:0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.climber-community {
+    background-image: url(../img/background1.png);
+    width:100%;
+    background-size: cover;
+}
+
+header {
+    background: #ffffff;
+    border-radius:30px;
+    width:100%;
+    margin:40px auto;
+    display:flex;
+    align-items: center;
+}
+
+.header-nav {
+    width: 90%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    margin-left: 4vw;
+}
+.header-left > li {
+    margin-left:2vw;
+}
+
+.header-right > li {
+    margin-right:2vw;
+}
+
+.header-right img {
+    padding-top:5px;
+}
+
+h1 {
+    font-size: 5vw;
+    width: 100%;
+    text-align: center;
+    color:#fff;
+    margin-top:150px;
+    font-weight:lighter;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    padding-top: 10px;
+    font-weight:lighter;
+    font-size:2vw;
+}
+
+.go-button {
+    height: 40px;
+    width: 80px;
+    border-radius: 25px;
+    background: #fff;
+    margin: 30px auto;
+    color: #3f6b86;
+}
+
+.go-button:hover {
+    background: #3f6b86;
+    color:#fff;
+}
+
+.go-text {
+    margin: 0;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 23px;
+}
+
+.bottom-row {
+    width:100%;
+    margin:70px auto 40px auto;
+    display:flex;
+    justify-content: space-between;
+    color:#fff;
+    align-items: center;
+}
+
+
+.row-images > img {
+    padding-left:5px;
+}
+
+.row-images > img:first-child {
+    padding:0;
+}
+
+.row-challenge > img {
+    height:13px;
+}
+
+.begin-climb {
+    background: #fff;
+    width:100%;
+}
+
+.mountains-logo {
+    margin: 70px auto 0px auto;
+}
+
+.climb-text {
+    width: 100%;
+    text-align: center;
+    color: #2f5f7c;
+    font-size: 3vw;
+    padding-top: 55px;
+}
+
+.use-filters {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:10px;
+}
+
+.filters-text {
+    color:#a9a9a9;
+    font-size:2vw;
+}
+
+.filters-button, .start-button {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.filters-button {
+    background: #e5e5e5;
+    height: 30px;
+    padding: 0px 5;
+    margin: 0px 5px;
+    border-radius: 15px;
+    width: 80px;
+    color:#727272;
+}
+
+.start-button {
+    height: 40px;
+    width: 120px;
+    border-radius: 25px;
+    background: #fff;
+    margin: 60px auto;
+    background: #3f6b86;
+    color:#fff;
+    font-size:23px;
+}
+
+.container-events {
+    width: 75%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ongoing-events {
+    background-image: url(../img/background2.png);
+    width:100%;
+    background-size: cover;
+}
+
+.events-row {
+    width:100%;
+    margin:5vw 0vw;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.row-ongoing, .row-find {
+    color:#fff;
+    display:flex;
+}
+
+.row-ongoing > img {
+    height:18px;
+}
+
+.ongoing-text, .find-event {
+    padding-left:10px;
+}
+
+.row-find {
+    border: 1px solid #fff;
+    width: 160px;
+    height: 50px;
+    align-items: center;
+    border-radius: 46px;
+}
+
+.row-find > img {
+    padding-left:8px;
+}
+
+.mountains-list {
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    color: #fff;
+    margin: auto;
+    font-size: 13px;
+}
+
+.events-line {
+    width:98%;
+    margin:10px auto;
+    height:3px;
+    background:rgb(179, 171, 171);
+}
+
+.line-part {
+    height:3px;
+    width:10%;
+    background: #fff;
+}
+
+.trips-row {
+    margin:60px 0;
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    justify-content: space-between;
+}
+
+.event > img {
+    width:100%;
+}
+.event {
+    width:23%;
+    background:#ffffff;
+    border-radius:8px;
+    margin-top:20px;
+}
+
+.event-name {
+    color: #305f7d;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.event-duration {
+    color: #a9a9a9;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.members-quantity {
+    width: 100%;
+    display: flex;
+    padding-left: 15px;
+    padding-top: 10px;
+    align-items: center;
+    font-size: 12px;
+}
+
+.members-quantity > img {
+    height:15px;
+}
+
+.members-quantity > p {
+    color:#305f7d;
+    font-weight:bold;
+    padding-left:5px;
+}
+
+.more-info {
+    width: 65px;
+    height: 30px;
+    background: #305f7d;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 13px;
+    margin: 20px 21px 20px auto;
+}
+
+.top-climbers {
+    background: #fff;
+    width: 100%;
+}
+
+.climbers-logo {
+    background: url(../img/top-climbers.png);
+    height: 92px;
+    width: 80px;
+    margin: 60px auto;
+}
+
+.climbers-text {
+    width:100%;
+    text-align: center;
+    color:#305f7d;
+    font-size:25px;
+}
+
+.climbers {
+    margin:0 auto;
+}
+.climbers-box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:30px;
+    position: relative;
+}
+
+.climbers-box:last-child {
+    margin-bottom:5vw;
+}
+
+.box-top {
+    height: 40px;
+    width: 280px;
+    border-top-right-radius: 60px;
+    position: relative;
+    top: 2px;
+    background-color: white;
+    box-shadow: -2px -2px 3px 0px #c0bebe;
+}
+
+.box-bottom {
+    border-bottom-left-radius: 50px;
+    width: 510px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0 0 3px 2px #c0bebe;
+}
+
+.box-top > img {
+    position:absolute;
+    margin:10px;
+}
+
+.climber-name {
+    color: #305f7d;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 95px;
+    padding-top: 10px;
+}
+
+.climber-number {
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    color: #fff;
+    background: #305f7d;
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    left: 21%;
+    top: 167%;
+}
+
+.box-bottom > p {
+    width: 73%;
+    font-size: 16px;
+    padding-left: 95px;
+    padding-top: 18px;
+    color: #305f7d;
+}
+
+@media screen and (max-width: 480px) {
+	.header-nav > ul {
+        display:none;
+    }
+
+    .header-logo {
+        margin-left:12vw;
+    }
+
+    h1 {
+        font-size:9vw;
+        margin-top:5vw;
+    }
+
+    h2 {
+        font-size:4vw;
+    }
+
+    .climb-text {
+        font-size:5vw;
+    }
+
+    .filters-text {
+        font-size:3vw;
+    }
+    .go-button {
+        margin-bottom:24vw;
+    }
+    .bottom-row {
+        display:none;
+    }
+    
+    .mountains-list, .events-line {
+        display:none;
+    }
+
+    .event {
+        width:100%;
+    }
+
+    .trips-row {
+        margin-top:10vw;
+        margin-bottom:10vw;
+    }
+
+    .climbers-box, .box-top, .box-bottom {
+        width:100%;
+        border-radius:0;
+        box-shadow:none;
+    }
+
+    .climber-name {
+        padding-top:10vw;
+    }
+
+    .climbers-box {
+        margin:0 auto;
+    }
+
+    .climbers-box:first-child {
+        margin-top:10vw;
+    }
+    .events-row {
+        margin:7vw 0 0 0;
+    }
+
+    .box-bottom > p {
+        display:none;
+    }
+   }
+
+   @media screen and (min-width: 480px) and (max-width:810px) {
+    .header-nav > ul {
+        display:none;
+    }
+
+    .header-logo {
+        margin-left:3vw;
+    }
+
+    .mountains-list, .events-line {
+        display:none;
+    }
+
+    .event {
+        width:45%;
+    }
+
+    .box-bottom > p {
+        display:none;
+    }
+
+    .climbers-box, .box-top, .box-bottom {
+        width:100%;
+        border-radius:0;
+        box-shadow:none;
+    }
+
+    .climber-name {
+        padding-top:5vw;
+    }
+   }
